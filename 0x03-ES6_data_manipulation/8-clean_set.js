@@ -1,5 +1,5 @@
 export default function cleanSet(set, startString) {
-  if (!startString || typeof startString !== 'string') {
+  if (typeof startString !== 'string' || startString === '') {
     return '';
   }
   const filteredValues = [...set]
