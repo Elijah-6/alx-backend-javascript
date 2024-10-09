@@ -132,3 +132,5 @@ function teachClass(todayClass: Subjects): string {
         return "Teaching History";
     }
 }
+
+export { Director, Teacher, createEmployee, isDirector, executeWork, teachClass, DirectorInterface, TeacherInterface, Subjects };
